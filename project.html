@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order Dashboard</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="project.css">
+</head>
+<body>
+    <div class="dashboard">
+        <div class="sidebar">
+            <div class="logo">
+                <h2><span class="color1">Pick</span> Your <span class="color2">color</span></h2>
+            </div>
+            <ul class="menu">
+                <li class="menu-item"><i class="fas fa-shopping-cart"></i> Orders</li>
+                <li class="menu-item"><i class="fas fa-chart-line"></i> Statistic</li>
+                <li class="menu-item"><i class="fas fa-box"></i> Product</li>
+                <li class="menu-item"><i class="fas fa-warehouse"></i> Stock</li>
+                <li class="menu-item"><i class="fas fa-tags"></i> Offer</li>
+            </ul>
+        </div>
+        <div class="main-content">
+            <div class="header">
+                <h2>Order</h2>
+                <input type="text"  placeholder="Search in Knock N’ Door" class="search-bar">
+                <div class="user-info">
+                    <div class="circle"><i class="fa fa-bell-slash" aria-hidden="true"></i></div>
+                    <i class="fas fa-user-circle"></i>
+                </div>
+            </div>
+            <div class="order-summary">
+                <div>
+                <h3>Pickup 1</h3>
+                <p>24 Orders - 9:05 am</p>
+                </div>
+                <div>
+                <select class="select">
+                    <option >Pickups</option>
+                </select></div>
+            </div>
+            <div class="order-item">
+                <p class="order-id">#2539</p>
+                <p class="customer-name">Jordan Smith</p>
+                <p class="order-date">31 July 2020</p>
+                <p class="order-price">$46.00</p>
+                <button class="status-btn">Completed</button>
+                <i class="fa fa-cog" aria-hidden="true"></i>
+                <i class="fa fa-angle-down" aria-hidden="true" ></i>
+            </div>
+            <div class="order-card">
+                <div class="order">
+                <div class="details">
+                    <strong class="id">Order Id</strong>
+                    <strong class="customer">Customer</strong>
+                    <strong class="date">Date</strong>
+                    <strong class="price">Price</strong>
+                    <strong class="status">Status</strong>
+                    <strong class="action">Action</strong>
+                    <i class="fa fa-angle-up" aria-hidden="true"></i>
+                </div><hr>
+                <div class="person1">
+                    <p class="id1">#2540</p>
+                    <p class="name1">Rowena Rce</p>
+                    <p class="date1">31 July 2020</p>
+                    <p class="price1">$62</p>
+                    <p class="status1">Pending</p>
+                    <p class="setting"><i class="fa fa-cog" aria-hidden="true"></i></p>
+                </div>
+            </div>
+                <div class="order-details">
+                    <div class="order-details-table">
+                        <h4>Order Details</h4>
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>Sn</th>
+                                    <th>Product Name</th>
+                                    <th>Quantity</th>
+                                    <th>Price</th>
+                                    <th>Total Price</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>1</td>
+                                    <td>Cheese Stack</td>
+                                    <td>2 pcs</td>
+                                    <td>$2.00</td>
+                                    <td>$4.00</td>
+                                </tr>
+                                <tr>
+                                    <td>2</td>
+                                    <td>Greek Style Salad</td>
+                                    <td>2 pcs</td>
+                                    <td>$4.00</td>
+                                    <td>$8.00</td>
+                                </tr>
+                                <tr>
+                                    <td>3</td>
+                                    <td>30 Chicken Satay & Peanut Dip</td>
+                                    <td>3 pcs</td>
+                                    <td>$11.00</td>
+                                    <td>$33.00</td>
+                                </tr>
+                                <tr>
+                                    <td>4</td>
+                                    <td>Wrap Platter</td>
+                                    <td>1 pcs</td>
+                                    <td>$15.00</td>
+                                    <td>$15.00</td>
+                                </tr>
+                                <tr>
+                                    <td>5</td>
+                                    <td>Moroccan Style Couscous</td>
+                                    <td>2 pcs</td>
+                                    <td>$3.00</td>
+                                    <td>$6.00</td>
+                                </tr>
+                                <tr>
+                                    <td></td>
+                                    <td>Total Price</td>
+                                    <td></td>
+                                    <td></td>
+                                    <td>$62</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <div class="order-actions">
+                            <button class="cancel-btn">Cancel Order</button>
+                            <button class="accept-btn">Accept for Pickup</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="order-item1">
+                <p class="order-id1">#2539</p>
+                <p class="customer-name1">Jordan Smith</p>
+                <p class="order-date1">31 July 2020</p>
+                <p class="order-price1">$46.00</p>
+                <button class="status-btn1">Pending</button>
+                <i class="fa fa-cog" aria-hidden="true"></i>
+                <i class="fa fa-angle-down" aria-hidden="true" ></i>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
